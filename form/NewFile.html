@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<fieldset>
+		<legend>
+			<h2>ATJ - APLIKACJE W TECHNOLOGII JAVA EE - GRUPA B</h2>
+		</legend>
+		<p>
+			Numer klienta: <input type="number" min="1" max="9999" step="1"
+				value="9998">
+		</p>
+
+		<p>
+			Data zawarcia umowy: <input type="date" value="10/20/2017">
+		</p>
+		<p>
+			Powód rozwiązania umowy: <br> <input type="radio" name="praca"
+				value="szukam" checked>Szukam dalej<br> <input
+				type="radio" name="praca" value="brak"> Brak nowych tematów<br>
+			<input type="radio" name="praca" value="wysoka"> Wysoka cena<br>
+			<input type="radio" name="praca" value="inny"> Inny<br>
+		</p>
+		<p>Uwagi:<br>
+		<textarea rows="3" cols="40" name="description">Podaj powód rozwiązania umowy jeśli inny</textarea>
+		</p>
+		<p>
+		Jak oceniasz zawartość naszej strony:<br>
+		Suchar <input type="range" min="0" max="6" step="1" value="3" name="ocena"> Zajebista
+		</p>
+		<p>
+		Czy poleciłbyś nasze usługi innej osobie:
+<select name="uslugi"> 
+<option value="tak" selected> Zdecydowanie tak</option>
+<option value="nie">Zdecydowanie nie</option>
+<option value="chyba">Chyba</option>
+</select>
+</p>
+<p>Kod:
+<input type="password" name="haslo" placeholder="Twoje hasło">
+</p>
+<p>Chcę otrzymać potwierdzenie 
+<input type="checkbox" name="studia" value="javaee"> &nbsp na:
+<input type="text" name="mail" value="sliwa.leszek@gmail.com" autofocus> 
+</p>
+<hr>
+<input type="submit" value="Wyślij">
+	</fieldset>
+</body>
+</html>
