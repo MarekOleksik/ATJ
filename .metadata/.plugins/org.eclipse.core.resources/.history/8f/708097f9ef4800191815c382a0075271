@@ -40,11 +40,11 @@ public class DegreeConverterServlet extends HttpServlet {
 		case "K":
 			result = (parameter1 - 32) / 1.8;
 			resultText = parameter1 + " Fahrenheita to: ";
-			resultText1 = result + " Celsjusza";
+			resultText1 = result + " Celcjusza";
 			break;
 		case "C":
 			result = (parameter1 * 1.8) + 32;
-			resultText = parameter1 + " Celsjusza to: ";
+			resultText = parameter1 + " Celcjusza to: ";
 			resultText1 = result + " Fahrenheita";
 			break;
 		
