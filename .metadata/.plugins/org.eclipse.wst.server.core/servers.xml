@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <servers>
-  <server auto-publish-setting="3" glassfish.adminserverportnumber="4848" glassfish.domainpath="C:\Users\sikor\Documents\glassfish5\glassfish\domains\domain1" glassfish.serverportnumber="8080" hostname="localhost" id="GlassFish 5 [domain1]" name="GlassFish 5 [domain1]" runtime-id="GlassFish 5" server-type="glassfish.server" server-type-id="glassfish.server" start-timeout="240" stop-timeout="240" timestamp="7">
-    <list key="modules" value0="DegreeConverter::org.eclipse.jst.jee.server:DegreeConverter::jst.web::4.0"/>
+  <server auto-publish-setting="3" glassfish.adminname="" glassfish.adminpassword="" glassfish.adminserverportnumber="4848" glassfish.debugport="" glassfish.domainpath="C:\Program Files (x86)\glassfish4\glassfish\domains\domain1" glassfish.serverportnumber="8080" hostname="localhost" id="GlassFish 4 [domain1]" name="GlassFish 4 (3) [domain1]" runtime-id="GlassFish 4 (3)" server-type="glassfish.server" server-type-id="glassfish.server" start-timeout="240" stop-timeout="240" timestamp="32">
+    <list key="modules" value0="NBPApi::org.eclipse.jst.jee.server:NBPApi::jst.web::3.1"/>
   </server>
 </servers>

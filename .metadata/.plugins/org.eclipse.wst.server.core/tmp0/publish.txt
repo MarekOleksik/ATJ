@@ -1,3 +1,6 @@
 #GlassFish 3
-#Sun Mar 17 21:05:52 CET 2019
-org.eclipse.jst.jee.server\:DegreeConverter=C\:\\Users\\sikor\\Documents\\glassfish5\\glassfish\\domains\\domain1\\eclipseApps\\DegreeConverter
+#Thu Apr 04 01:05:12 CEST 2019
+org.eclipse.jst.jee.server\:NBPClient=C\:\\Program Files (x86)\\glassfish4\\glassfish\\domains\\domain1\\eclipseApps\\NBPClient
+org.eclipse.jst.jee.server\:FirstREST=C\:\\Program Files (x86)\\glassfish4\\glassfish\\domains\\domain1\\eclipseApps\\FirstREST
+org.eclipse.jst.jee.server\:NBPApi=C\:\\Program Files (x86)\\glassfish4\\glassfish\\domains\\domain1\\eclipseApps\\NBPApi
+org.eclipse.jst.jee.server\:SOA=C\:\\Program Files (x86)\\glassfish4\\glassfish\\domains\\domain1\\eclipseApps\\SOA

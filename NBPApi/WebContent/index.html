@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>NBPApi</title>
+</head>
+<body bgcolor="f0f0f0">
+<h1 align="center">Program do obliczania średniego kursu walut</h1>
+<h2 align="center">Proszę wprowadzić dane:</h2>
+<form action="/NBPApi/NBPApiServlet">
+<p><label>Tabela kursu wymiany walut:</label>
+<select name="tabela">
+<option value="A">A</option>
+<option value="B">B</option>
+<option value="C">C</option>
+</select></p>
+<p><label>Kod waluty:</label>
+<select name="waluta">
+<option value="USD">USD</option>
+<option value="EUR">EUR</option>
+<option value="CHF">CHF</option>
+<option value="GBP">GBP</option>
+</select></p>
+<p><label>Liczba ostatnich notowań:</label>
+<input type="number" name="topCount" min="1" max="100" value="10" step="1" required></p>
+
+
+<br>
+<p align="center">
+<input type="submit" value="Akceptuj">
+</p>
+</form>
+</body>
+</html>
